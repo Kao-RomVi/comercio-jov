@@ -107,6 +107,13 @@ body {
     display: flex;
 }
 
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 #feature .fe-box {
     width: 180px;
     text-align: center;
@@ -121,6 +128,11 @@ body {
     box-shadow: 10px 10px 54px rgba(184, 33, 98, 0.06);
 }
 
+#feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 #feature .fe-box h6 {
     display: inline-block;
     padding: 9px 8px 6px 8px;
@@ -129,3 +141,4 @@ body {
     color: #813a59;
     background-color: #ffd2e7;
 }
+
